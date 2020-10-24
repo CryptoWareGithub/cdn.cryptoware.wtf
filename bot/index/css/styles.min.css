@@ -1,0 +1,58 @@
+.logged-in {
+    display: none;
+}
+
+html {
+    background:#fff;
+    background-image: url("/index/png/back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+header {
+    font-size:45px
+}
+.btn.btn-primary:hover {
+    transition-duration:.4s;
+    background:#fff;
+    color:#007bff;
+    border:2px solid #fff
+}
+.btn.btn-primary {
+    transition-duration:.4s;
+    background:#007bff;
+    color:#fff;
+    border:2px solid #007bff
+}
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+footer a img {
+    width: 200px;
+    height: auto;
+}
+body {
+    background-color: transparent;
+}
+.login {
+    background: #dadada;
+    padding: 42px 42px 36px;
+    width: 459px;
+    height: 50%;
+    margin: 120px auto 0;
+}
+#login-form {
+    padding: 0px;
+    width: auto;
+    margin-top: 30px;
+}
+.form-control {
+    margin-top: 10px;
+    height: 44px;
+    width: 100%;
+}
+#feedback {
+    color: red;
+}
