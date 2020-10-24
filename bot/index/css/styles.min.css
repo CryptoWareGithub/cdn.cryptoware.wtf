@@ -4,7 +4,7 @@
 
 html {
     background:#fff;
-    background-image: url("/index/png/back.png");
+    background-image: url("//cdn.cryptoware.wtf/bot/index/png/back.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
