@@ -2,6 +2,7 @@
 auth.onAuthStateChanged(user => {
     if (user) {
         setupUI(user);
+        redir(user);
     } else {
         setupUI();
     }
