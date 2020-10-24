@@ -1,13 +1,11 @@
 .logged-in {
     display: none;
 }
-
 html {
-    background:#fff;
-    background-image: url("//cdn.cryptoware.wtf/bot/index/png/back.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-image: linear-gradient(to right, #0000ff, #ff00ff);
+}
+body {
+    background:transparent
 }
 header {
     font-size:45px
@@ -32,9 +30,6 @@ footer {
 footer a img {
     width: 200px;
     height: auto;
-}
-body {
-    background-color: transparent;
 }
 .login {
     background: #dadada;
